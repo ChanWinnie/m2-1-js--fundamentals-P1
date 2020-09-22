@@ -23,6 +23,17 @@ function exercise7() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  for (let number = 0; number <= 23; number++) {
+
+    if ([22, 23, 0, 1, 2, 3, 4, 5].includes(number)) {
+      console.log(`It's ${number}h. Time to sleep!`);
+    } else if ([6, 13, 18].includes(number)) {
+      console.log(`It's ${number}h. Time to eat!`);
+    } else {
+      console.log(`It's ${number}h. Time to train!`);
+    }
+    
+  }
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
