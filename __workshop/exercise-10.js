@@ -13,6 +13,9 @@ function exercise10() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  for (let row = "#"; row.length <=7; row += "#") {
+  console.log(row);
+  }
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
